@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyMoney</string>
+
+    <!-- Generic -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="close">Close</string>
+    <string name="back">Back</string>
+    <string name="undo">Undo</string>
+    <string name="confirm">Confirm</string>
+    <string name="skip">Skip</string>
+    <string name="search">Search</string>
+    <string name="filters">Filters</string>
+    <string name="clear_filters">Clear filters</string>
+    <string name="all">All</string>
+    <string name="none">None</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="error_generic">Something went wrong.</string>
+    <string name="empty_value_required">This field is required.</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_transactions">Transactions</string>
+    <string name="nav_accounts">Accounts</string>
+    <string name="nav_categories">Categories</string>
+    <string name="nav_recurrences">Recurrences</string>
+    <string name="nav_budgets">Budgets</string>
+    <string name="nav_goals">Goals</string>
+    <string name="nav_reports">Reports</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title">Welcome to MyMoney</string>
+    <string name="onboarding_privacy">Your data never leaves this device. MyMoney works fully offline: no cloud, no account, no tracking.</string>
+    <string name="onboarding_start_fresh">Start fresh</string>
+    <string name="onboarding_restore_backup">Restore a backup (.json)</string>
+    <string name="onboarding_import_csv">Import transactions (CSV)</string>
+    <string name="onboarding_default_account_name">Cash</string>
+    <string name="pin_set_title">Create a security PIN</string>
+    <string name="pin_set_message">Optional. The PIN is stored hashed with a random salt, never in plain text.</string>
+    <string name="pin_label">PIN (at least 4 digits)</string>
+    <string name="pin_confirm_label">Confirm PIN</string>
+    <string name="pin_mismatch">PINs do not match.</string>
+    <string name="pin_invalid">PIN must have at least 4 digits.</string>
+    <string name="pin_unlock_title">Unlock MyMoney</string>
+    <string name="pin_unlock_message">Enter your PIN</string>
+    <string name="pin_wrong">Wrong PIN.</string>
+    <string name="biometric_prompt_title">Unlock with biometrics</string>
+    <string name="biometric_use">Use PIN instead</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_total_balance">Total balance</string>
+    <string name="dashboard_income_month">Income this month</string>
+    <string name="dashboard_expense_month">Expenses this month</string>
+    <string name="dashboard_result_month">Result this month</string>
+    <string name="dashboard_cashflow_6m">Cash flow – last 6 months</string>
+    <string name="dashboard_expenses_by_category">Expenses by category (this month)</string>
+    <string name="dashboard_upcoming">Upcoming scheduled transactions</string>
+    <string name="dashboard_accounts">Accounts</string>
+    <string name="dashboard_new_transaction">New transaction</string>
+    <string name="dashboard_shortcuts">Shortcuts</string>
+    <string name="hide_balances">Hide balances</string>
+    <string name="show_balances">Show balances</string>
+
+    <!-- Transactions -->
+    <string name="type_income">Income</string>
+    <string name="type_expense">Expense</string>
+    <string name="type_transfer">Transfer</string>
+    <string name="transaction_new_income">New income</string>
+    <string name="transaction_new_expense">New expense</string>
+    <string name="transaction_new_transfer">New transfer</string>
+    <string name="transaction_edit">Edit transaction</string>
+    <string name="transaction_duplicate">Duplicate</string>
+    <string name="transaction_delete_title">Delete transaction?</string>
+    <string name="transaction_deleted">Transaction deleted</string>
+    <string name="field_amount">Amount</string>
+    <string name="field_date">Date</string>
+    <string name="field_time_optional">Time (optional)</string>
+    <string name="field_account">Account</string>
+    <string name="field_account_to">Destination account</string>
+    <string name="field_category">Category</string>
+    <string name="field_description">Description</string>
+    <string name="field_notes">Notes</string>
+    <string name="field_tags">Tags (comma separated)</string>
+    <string name="status_planned">Planned</string>
+    <string name="status_confirmed">Confirmed</string>
+    <string name="status_reconciled">Reconciled</string>
+    <string name="filter_period">Period</string>
+    <string name="filter_type">Type</string>
+    <string name="filter_status">Status</string>
+    <string name="sort_by">Sort by</string>
+    <string name="sort_date">Date</string>
+    <string name="sort_amount">Amount</string>
+    <string name="sort_category">Category</string>
+    <string name="sort_account">Account</string>
+    <string name="validate_amount_positive">Amount must be greater than zero.</string>
+    <string name="validate_account_required">Select an account.</string>
+    <string name="validate_category_required">Select a category.</string>
+    <string name="validate_accounts_different">Choose two different accounts.</string>
+    <string name="transactions_empty">No transactions yet. Tap + to add one.</string>
+    <string name="confirm_selected">Confirm selected</string>
+    <string name="ignore_occurrence">Ignore this occurrence</string>
+
+    <!-- Accounts -->
+    <string name="account_new">New account</string>
+    <string name="account_edit">Edit account</string>
+    <string name="account_name">Name</string>
+    <string name="account_type">Type</string>
+    <string name="account_initial_balance">Initial balance</string>
+    <string name="account_color">Color</string>
+    <string name="account_icon">Icon</string>
+    <string name="account_currency">Currency</string>
+    <string name="account_status">Status</string>
+    <string name="account_notes">Notes</string>
+    <string name="account_active">Active</string>
+    <string name="account_archived">Archived</string>
+    <string name="account_archive">Archive</string>
+    <string name="account_unarchive">Unarchive</string>
+    <string name="account_delete_title">Delete account?</string>
+    <string name="account_delete_has_transactions">This account still has transactions. Choose what to do with them.</string>
+    <string name="account_delete_transactions_too">Delete the account and its transactions</string>
+    <string name="account_current_balance">Current balance</string>
+    <string name="account_history">Transaction history</string>
+    <string name="type_cash">Cash</string>
+    <string name="type_bank">Bank</string>
+    <string name="type_credit_card">Credit card</string>
+    <string name="type_digital_wallet">Digital wallet</string>
+    <string name="type_savings">Savings</string>
+    <string name="type_investment">Investment</string>
+    <string name="type_other">Other</string>
+
+    <!-- Categories -->
+    <string name="category_new">New category</string>
+    <string name="category_edit">Edit category</string>
+    <string name="category_name">Name</string>
+    <string name="category_type">Type</string>
+    <string name="category_both">Both</string>
+    <string name="category_default_system">System default</string>
+    <string name="category_custom">Custom</string>
+    <string name="category_delete_title">Delete category?</string>
+    <string name="category_delete_blocked_default">Essential default categories cannot be deleted while they are the fallback. Reassign transactions first or pick another category.</string>
+    <string name="category_move_transactions">Move its transactions to:</string>
+    <string name="categories_group_expense">Expense categories</string>
+    <string name="categories_group_income">Income categories</string>
+
+    <!-- Recurrences -->
+    <string name="recurrence_new">New recurrence</string>
+    <string name="recurrence_edit">Edit recurrence</string>
+    <string name="frequency_daily">Daily</string>
+    <string name="frequency_weekly">Weekly</string>
+    <string name="frequency_biweekly">Every two weeks</string>
+    <string name="frequency_monthly">Monthly</string>
+    <string name="frequency_bimonthly">Every two months</string>
+    <string name="frequency_quarterly">Quarterly</string>
+    <string name="frequency_semiannual">Semiannual</string>
+    <string name="frequency_annual">Annual</string>
+    <string name="frequency_custom">Custom interval</string>
+    <string name="recurrence_interval_days">Interval (days)</string>
+    <string name="recurrence_start_date">Start date</string>
+    <string name="recurrence_end_date">End date (optional)</string>
+    <string name="recurrence_due_day">Due day</string>
+    <string name="recurrence_pause">Pause</string>
+    <string name="recurrence_resume">Resume</string>
+    <string name="recurrence_auto_generate">Generate transactions automatically when the app opens</string>
+    <string name="recurrence_next">Next occurrence</string>
+
+    <!-- Budgets -->
+    <string name="budget_new">New budget</string>
+    <string name="budget_edit">Edit budget</string>
+    <string name="budget_name">Name</string>
+    <string name="budget_limit">Limit value</string>
+    <string name="budget_spent">Spent</string>
+    <string name="budget_remaining">Remaining</string>
+    <string name="budget_period_monthly">Monthly</string>
+    <string name="budget_period_weekly">Weekly</string>
+    <string name="budget_include_planned">Count planned expenses too</string>
+    <string name="budget_overspent">Over budget!</string>
+    <string name="budget_start_date">Start date</string>
+
+    <!-- Goals -->
+    <string name="goal_new">New goal</string>
+    <string name="goal_edit">Edit goal</string>
+    <string name="goal_name">Name</string>
+    <string name="goal_target">Target amount</string>
+    <string name="goal_saved">Saved</string>
+    <string name="goal_deadline">Deadline (optional)</string>
+    <string name="goal_add_contribution">Add contribution</string>
+    <string name="goal_undo_contribution">Undo last contribution</string>
+    <string name="goal_progress">Progress</string>
+    <string name="goal_estimated_completion">Estimated completion</string>
+    <string name="goal_completed">Completed</string>
+    <string name="goal_active">Active</string>
+    <string name="goal_archived">Archived</string>
+
+    <!-- Reports -->
+    <string name="report_monthly">Monthly income &amp; expenses</string>
+    <string name="report_cashflow">Cash flow by month</string>
+    <string name="report_expenses_by_category">Expenses by category</string>
+    <string name="report_income_by_category">Income by category</string>
+    <string name="report_by_account">Report by account</string>
+    <string name="report_custom_period">Custom period</string>
+    <string name="report_net_worth">Net worth evolution</string>
+    <string name="report_top_expenses">Top expenses</string>
+    <string name="report_monthly_average">Monthly averages</string>
+    <string name="report_export_csv">Export current report (CSV)</string>
+    <string name="period_this_month">This month</string>
+    <string name="period_last_month">Last month</string>
+    <string name="period_last_3_months">Last 3 months</string>
+    <string name="period_this_year">This year</string>
+    <string name="period_custom">Custom</string>
+
+    <!-- Backup / CSV -->
+    <string name="settings_backup">Backup</string>
+    <string name="backup_export_json">Export full backup (JSON)</string>
+    <string name="backup_import_json">Import backup (JSON)</string>
+    <string name="backup_import_warning">Importing a backup REPLACES all current data on this device. This cannot be undone.</string>
+    <string name="backup_import_confirm">I understand, replace my data</string>
+    <string name="backup_success">Backup exported successfully.</string>
+    <string name="backup_restored">Backup restored successfully.</string>
+    <string name="backup_invalid">Invalid or corrupted backup file.</string>
+    <string name="csv_export">Export transactions (CSV)</string>
+    <string name="csv_import">Import transactions (CSV)</string>
+    <string name="csv_preview_title">Preview (%d rows)</string>
+    <string name="csv_errors_summary">%1$d errors, %2$d warnings</string>
+    <string name="csv_import_button">Import valid rows</string>
+    <string name="csv_import_done">%d transactions imported.</string>
+
+    <!-- Settings -->
+    <string name="settings_theme">Theme</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_system">Follow system</string>
+    <string name="settings_currency">Default currency</string>
+    <string name="settings_first_day_week">First day of week</string>
+    <string name="settings_date_format">Date format</string>
+    <string name="settings_show_cents">Show cents</string>
+    <string name="settings_pin">PIN lock</string>
+    <string name="settings_pin_enable">Enable PIN lock</string>
+    <string name="settings_pin_change">Change PIN</string>
+    <string name="settings_pin_disable">Disable PIN</string>
+    <string name="settings_biometry">Biometric unlock</string>
+    <string name="settings_planned_behavior">Scheduled transactions</string>
+    <string name="settings_notifications">Local reminders</string>
+    <string name="settings_about">About MyMoney</string>
+    <string name="settings_version">Version</string>
+    <string name="settings_licenses">Open source licenses</string>
+    <string name="settings_privacy">Privacy policy</string>
+    <string name="privacy_policy_text">MyMoney stores every piece of data only in the app private storage on this device. There is no internet permission, no analytics, no crash reporting, no ads and no cloud sync. Backups you export are files you control. Clearing app data or uninstalling permanently deletes everything. A PIN adds convenience-level protection but does not replace device security or full-disk encryption.</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_reminders">Financial reminders</string>
+    <string name="notif_planned_title">Scheduled transaction due</string>
+    <string name="notif_budget_title">Budget close to limit</string>
+
+    <!-- Keyboard shortcuts -->
+    <string name="shortcut_new_transaction">N – new transaction</string>
+    <string name="shortcut_search">/ – search</string>
+</resources>
